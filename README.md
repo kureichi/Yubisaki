@@ -20,32 +20,40 @@ I just can't naming things, that's all.
 
 ## Installation
 
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+Here are the steps to run the Yubisaki locally on your computer.
 
 1. Clone the repo
 
 ```
-git clone https://github.com/kureichi/Yubisaki.git
+$ git clone https://github.com/kureichi/Yubisaki.git
+$ cd Yubisaki
 ```
 
 2. Install NPM packages
 
 ```
-npm install
+$ npm install
 ```
 
-3. Enter your OpenAI Compatible API and URL in .env
+3. Create an .env file, enter your OpenAI Compatible API and URL in it
 
 ```
 YUBI_API_URL='ENTER OPENAI COMPATIBLE URL';
 YUBI_API_KEY='ENTER YOUR API';
 ```
 
-4. Change git remote url to avoid accidental pushes to base project
+5. Run with NPM
 
 ```
-git remote set-url origin github_username/repo_name
-git remote -v # confirm the changes
+$ npm run dev
+```
+
+
+4. [Optional] Change git remote url to avoid accidental pushes to base project
+
+```
+$ git remote set-url origin github_username/repo_name
+$ git remote -v # confirm the changes
 ```
 
 ## Contributing
