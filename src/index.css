@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", monospace;
+  --font-default: "Vend Sans", sans-serif;
+}
+
+@layer base {
+  pre {
+    @apply bg-[#24333f]  my-2 p-5 rounded-2xl overflow-auto
+  }
+  code:not(pre > code) {
+    @apply px-3 rounded-sm bg-[#242b31]
+  }
+  code {
+    @apply text-sm font-mono
+  }
+  hr {
+    @apply my-3
+  }
+  h1 {
+    @apply text-4xl mt-4 mb-3
+  }
+  h2 {
+    @apply text-3xl mt-4 mb-3
+  }
+  h3 {
+    @apply text-2xl mt-4 mb-3
+  }
+  h4 {
+    @apply text-xl mt-4 mb-3
+  }
+  ul {
+    @apply list-disc my-3 ml-4
+  }
+  ol{
+    @apply list-decimal my-3 ml-6
+  }
+  li {
+    @apply my-3
+  }
+  em {
+    @apply opacity-50
+  }
+
+}
+
+body{
+  background-color: rgb(19, 20, 20);
+}
