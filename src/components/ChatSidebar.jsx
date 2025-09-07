@@ -15,7 +15,7 @@ const ChatSidebar = (props) => {
   return (
     <>  
         <aside className={`fixed md:static z-10 ${isSidebarOpen ? 'left-0' : 'left-[-280px]'} md:block  transition-all transition-discrete`}>
-          <div className="w-70 p-3 flex flex-col h-screen bg-[#25292e]">
+          <div className="w-70 p-3 flex flex-col h-dvh bg-[#25292e]">
               <h2 className="text-xl">Yubisaki</h2>
               <p className="text-sm">App made by kureichi</p>
 

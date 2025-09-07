@@ -34,7 +34,7 @@ function LoginPage() {
     return (
         <>
         <div className="flex flex-col items-center justify-center h-dvh transition-all">
-            <div className="h-fit p-6 md:w-100 w-full px-20">
+            <div className="h-fit p-6 md:w-100 w-full px-10">
                 <div className="flex flex-col items-center text-center text-white">
                     <h1 className=" text-white text-4xl">Yubisaki AI</h1>
                     <p className="text-sm mt-5">Enter your username below to log in</p>

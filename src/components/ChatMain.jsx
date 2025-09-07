@@ -90,12 +90,12 @@ const ChatMain = (props) => {
 
   return (
     <>
-        <div className="flex flex-col h-screen w-full justify-center items-center overflow-hidden">
+        <div className="flex flex-col h-dvh w-full justify-center items-center overflow-hidden">
             <div className="text-center h-fit gap-3 py-5 truncate w-[50%]">
                 {selectedChat != -1 ? chats[selectedChat].name : 'New Chat'}
             </div>
             <div className="flex-1 flex justify-center pb-20 overflow-auto w-full">
-                <div className="flex flex-col gap-5 md:w-[60%] w-[80%]">
+                <div className="flex flex-col gap-5 md:w-[60%] w-[95%]">
                     {selectedChat != -1 ? chats[selectedChat].messages.map((message) => {
                         if (message.role == 'user') {
                             return (
