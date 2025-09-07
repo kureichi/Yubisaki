@@ -1,7 +1,7 @@
 <div align="center">
 <h2>Yubisaki</h2>
   <p>
-    A Chat AI Frontend Build with React
+    A Chat AI Frontend made with React
     <br />
   </p>
     <br />
@@ -25,7 +25,7 @@ Below is an example of how you can instruct your audience on installing and sett
 1. Clone the repo
 
 ```
-git clone https://github.com/github_username/repo_name.git
+git clone https://github.com/kureichi/Yubisaki.git
 ```
 
 2. Install NPM packages
